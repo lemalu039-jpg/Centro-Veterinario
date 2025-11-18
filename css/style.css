@@ -1,0 +1,189 @@
+
+body{
+    font-family:Arial;
+    margin:0;
+    padding:20px;
+    background:#f2f2f2;
+}
+
+.contenedor-principal{
+    background:transparent;
+    border:none;
+    border-radius:0;
+    padding:15px;
+    max-width:1200px;
+    margin:0 auto;
+}
+
+header.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 20px 40px;
+    border: 1px solid #363030;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+
+
+.huellas img {
+    width: 200px;
+    opacity: 2px;
+}
+
+/* TITULOS CENTRALES */
+.titulos {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.titulos h2 {
+    font-size: 22px;
+    color: #888;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.2);
+}
+
+.titulos h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.4);
+}
+
+/* IMAGEN DE MASCOTAS */
+.imagen-header img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+nav{
+    background:#9ca7b1;
+    padding:30px;
+    text-align:center;
+    border:2px solid #4d4242;
+    border-radius:8px;
+    margin:15px 0;
+}
+
+nav a{
+    margin:0 15px;
+}
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    padding:0;
+    background:transparent;
+    border:none;
+    border-radius:0;
+    margin-bottom:15px;
+}
+
+.articulos
+{width:60%;
+}
+
+.articulo{
+    background: #dee3eb;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #504747;
+    border-radius:10px;
+}
+
+.articulo img{
+    width: 100px;  
+    height: auto;  
+    display:block;
+}
+.articulo img.left{
+    float:left;
+    margin:10px 15px 10px 0;
+    border:1px solid #0e0b0b; 
+
+}
+.articulo img.right{
+    float:right;
+    margin:10px 0 10px 15px;
+   
+    border:1px solid #0e0b0b;
+}
+.articulo p{
+    text-align:justify;
+}
+.articulo{ 
+    overflow:auto;
+}
+
+.formulario{
+    width:30%;
+    background:#dee3eb;
+    padding:18px;
+    border:1px solid #4d4242;
+    border-radius:10px;
+}
+
+.formulario h3{
+    margin:0 0 12px 0;
+    text-align:center;
+    font-size:1.1em;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.formulario .form-inner{
+    padding:6px 8px;
+}
+
+.form-row{
+    display:flex;
+    align-items:center;
+    margin-bottom:12px;
+}
+
+.form-row label{
+    width:80px;
+    font-weight:bold;
+    font-size:0.95em;
+}
+
+.form-row input[type="text"],
+.form-row input[type="date"],
+.form-row input[type="time"]{
+    flex:1;
+    padding:6px 8px;
+    border:1px solid #999;
+    border-radius:4px;
+    background:#fff;
+}
+
+.form-row.form-actions{
+    justify-content:center;
+}
+
+.btn{
+    padding:6px 10px;
+    border-radius:6px;
+    border:1px solid #888;
+    background:#eee;
+    cursor:pointer;
+}
+
+footer{
+
+.linea {
+    border-top: 2px solid rgb(15, 17, 15);
+    height: 2px;
+    
+    padding: 0;
+    margin: 20px auto ;
+    width:100%
+ }
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
